@@ -1,0 +1,11 @@
+C:\Users\Alessandro Vendrame\Desktop\Scuola\Esercizi\C#\20201401\bin\Debug\netcoreapp3.1\20201401.exe
+C:\Users\Alessandro Vendrame\Desktop\Scuola\Esercizi\C#\20201401\bin\Debug\netcoreapp3.1\20201401.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\Esercizi\C#\20201401\bin\Debug\netcoreapp3.1\20201401.runtimeconfig.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\Esercizi\C#\20201401\bin\Debug\netcoreapp3.1\20201401.runtimeconfig.dev.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\Esercizi\C#\20201401\bin\Debug\netcoreapp3.1\20201401.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\Esercizi\C#\20201401\bin\Debug\netcoreapp3.1\20201401.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\Esercizi\C#\20201401\obj\Debug\netcoreapp3.1\20201401.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\Esercizi\C#\20201401\obj\Debug\netcoreapp3.1\20201401.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\Esercizi\C#\20201401\obj\Debug\netcoreapp3.1\20201401.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\Esercizi\C#\20201401\obj\Debug\netcoreapp3.1\20201401.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\Esercizi\C#\20201401\obj\Debug\netcoreapp3.1\20201401.pdb
