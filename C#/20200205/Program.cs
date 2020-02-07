@@ -109,7 +109,7 @@ namespace _20200205
                     stop=i;
                     break;
                 }
-                ipAddress+=ip[i]+".";
+                
             }
 
             for (int i = 0; i <= 255;)
