@@ -40,3 +40,50 @@ def select(population, to_retain):
     selected_females = females[-to_retain_by_sex:]
     selected_males = males[-to_retain_by_sex:]
     return selected_males, selected_females
+
+def breed(males, females, litter_size):
+    """Crossover genes among members (weight) of a population."""
+    random.shuffle(males)
+    random.shuffle(females)
+    children = []
+    for male,female in zip(males, females):
+        for child in range(litter_size):
+            child = random.randint(female,male)
+            children.append(child)
+    return children
+
+def mutate(children, mutate_odds, mutate_min, mutate_max):
+    """Randomly alter rat weights using input odds & fraction changes."""
+    for index, rat in enumerate(children): #Li giro tutti dal primo all'ultimo come se fosse range(1,lenght,1)
+        if mutate_odds >= random.random():
+            children[index] = round(rat*random.uniform(mutate_min,mutate_max)) #la probabilità che scelga tra il min e il massimo è uguale
+    return children
+
+def main():
+    """Initialize population, select, breed, and mutate, display results."""
+    generations = 0
+
+    parents = populate(NUM_RATS, INITIAL_MIN_WT, INITIAL_MAX_WT, INITIAL_MODE_WT)
+    print("Initial population weights = {}".format(parents))
+    popl_fitness = fitness(parents,GOAL)
+    print("Initial population fitness = {}".format(popl_fitness))
+    print("Number to retain = {}".format(NUM_RATS))
+
+    ave_wt = []
+
+    while popl_fitness < 1 and generations < GENERATION_LIMIT:
+        selected_males,  selected_females = select(parents, NUM_RATS)
+        children = breed(selected_males,selected_females,LITTER_SIZE)
+        children = mutate(children, MUTATE_ODDS, MUTATE_MIN, MUTATE_MAX)
+        parents = selected_males + selected_females + children
+        popl_fitness = fitness(parents, GOAL)
+        print("Generation {} fitness = {:.4f}".format(generations,popl_fitness))
+
+        ave_wt.append(int(statistics.mean(parents)))
+        generations+=1
+
+    print("Average weight per generation = {}".format(ave_wt))
+    print("\nNumber of generation = {}".format(generations))
+    print("Number of years = {}".format(int(generations / LITTERS_PER_YEAR)))
+
+main()
