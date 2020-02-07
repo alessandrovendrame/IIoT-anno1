@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Calcolatrice</h1>
+    <br>
+    <!--Schermo-->
+    <div class="container">
+        <div class="row">
+            <div class="col-9">
+                <input type="text" value="0" class="form-control" name="display" id="txtCalc" readonly="readonly" style="text-align: right;">
+            </div>
+            <div class="col-3">
+                <input type="button" value="C" id="c" class="btn-block btn-lg btn-danger" onclick="cancellaCalc()">
+            </div>
+        </div>
+        <!--Tastierino-->
+        <br>
+
+        <div>
+            <div class="row">
+                <div class="col-3">
+                    <input type="submit" value="7" id="7" class="btn-block btn-lg" onclick="scriviCalc(this.value)">
+                </div>
+                <div class="col-3">
+                    <input type="submit" value="8" id="8" class="btn-block btn-lg" onclick="scriviCalc(this.value)">
+                </div>
+                <div class="col-3">
+                    <input type="submit" value="9" id="9" class="btn-block btn-lg" onclick="scriviCalc(this.value)">
+                </div>
+                <div class="col-3">
+                    <input type="submit" value="/" id="/" class="btn-block btn-lg btn-secondary" onclick="scriviOp(this.value)">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-3">
+                    <input type="submit" value="4" id="4" class="btn-block btn-lg" onclick="scriviCalc(this.value)">
+                </div>
+                <div class="col-3">
+                    <input type="submit" value="5" id="5" class="btn-block btn-lg" onclick="scriviCalc(this.value)">
+                </div>
+                <div class="col-3">
+                    <input type="submit" value="6" id="6" class="btn-block btn-lg" onclick="scriviCalc(this.value)">
+                </div>
+                <div class="col-3">
+                    <input type="submit" value="X" id="X" class="btn-block btn-lg btn-secondary" onclick="scriviOp(this.value)">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-3">
+                    <input type="submit" value="1" id="1" class="btn-block btn-lg" onclick="scriviCalc(this.value)">
+                </div>
+                <div class="col-3">
+                    <input type="submit" value="2" id="2" class="btn-block btn-lg" onclick="scriviCalc(this.value)">
+                </div>
+                <div class="col-3">
+                    <input type="submit" value="3" id="3" class="btn-block btn-lg" onclick="scriviCalc(this.value)">
+                </div>
+                <div class="col-3">
+                    <input type="submit" value="-" id="-" class="btn-block btn-lg btn-secondary" onclick="scriviOp(this.value)">
+                </div>
+            </div>
+            <div class="row mt-4">
+                 <div class="col-3 offset-3">
+                    <input type="submit" value="0" id="0" class="btn-block btn-lg" onclick="scriviCalc(this.value)">
+                </div>
+                <div class="col-3">
+                    <input type="submit" value="." id="." class="btn-block btn-lg" onclick="scriviCalc(this.value)">
+                </div>
+                <div class="col-3">
+                    <input type="submit" value="+" id="+" class="btn-block btn-lg btn-secondary" onclick="scriviOp(this.value)">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <input type="submit" value="=" id="=" class="btn-block btn-lg btn-outline-success" onclick="getRisultato()" disabled>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

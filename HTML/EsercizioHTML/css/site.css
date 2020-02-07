@@ -1,0 +1,59 @@
+.menu{
+    float:left;
+    width: 20%;
+    border-left: 3px double #7AB4DC;
+    padding: 2px;
+}
+
+.testo{
+    float:left;
+    width:57%;
+    font-family: Arial;
+}
+
+.testo2{
+    float:right;
+    width: 40%;
+    font-family: Arial;
+}
+
+.tabellaTOP{
+    text-align: center;
+    color: white;
+    background-color: #0396ff;
+    font-family: Arial;
+}
+
+.elementoT
+{
+    font-family: Arial;
+}
+
+table{
+    border: 1px solid #c8dfef;
+    width: 100%;
+    border-collapse:collapse;
+
+}
+
+th{
+    border: 1px solid #c8dfef;
+}
+
+td{
+    border: 1px solid #c8dfef;
+}
+
+a{
+    color: #7AB4DC;
+    text-decoration: none;
+}
+
+footer{
+    position: fixed;
+    bottom:0px;
+    left:0px;
+    width: 100%;
+    text-align: center;
+    font-family: Arial;    
+}

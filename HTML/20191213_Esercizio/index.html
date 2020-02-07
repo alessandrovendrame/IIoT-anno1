@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ITS Esercizio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>Titolo</h1>
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ">
+                    <li class="nav-item active">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            Menu
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary ml-2" data-toggle="modal" data-target="#Login">
+                            Login
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary ml-2" data-toggle="modal"
+                            data-target="#Login1">
+                            Login 1
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary ml-2" data-toggle="modal"
+                            data-target="#Registrazione">
+                            Registrazione
+                        </button>
+                    </li>
+            </div>
+        </nav>
+    </div>
+    <!--PopUp button Login-->
+    <div class="modal fade" id="Login" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="login">
+                        <fieldset>
+                            <legend>Login</legend>
+                            <form action="/login.php" method="POST">
+                                <div style="width:100%">
+                                    <div class="label">
+                                        <label for="username">Username:</label>
+                                    </div>
+                                    <div class="txtbox">
+                                        <input type="text" name="username" id="username" required>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="label">
+                                        <label for="password">Password:</label>
+                                    </div>
+                                    <div class="txtbox">
+                                        <input type="text" name="psw" id="password" required>
+                                    </div>
+                                </div>
+                                <br>
+                                <input type="submit" value="Login" class="button">
+                            </form>
+                        </fieldset>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--PopUpRegistrazione-->
+    <div class="modal fade" id="Registrazione" tabindex="-1" role="dialog" aria-labelledby="Registrazione"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div style="margin-left: 10px; margin-bottom: 5px;">
+                    <fieldset>
+                        <legend>Registrazione</legend>
+                        <form action="/login.php" method="POST">
+                            <div class="labelreg">
+                                <label for="username">Username:</label>
+                            </div>
+                            <div class="txtboxreg">
+                                <input type="text" name="username" id="username" required>
+                            </div>
+                            <div class="labelreg">
+                                <label for="password">Password:</label>
+                            </div>
+                            <div class="txtboxreg">
+                                <input type="text" name="psw" id="password" required>
+                            </div>
+                            <br>
+                            <input type="submit" value="Login" class="button">
+                        </form>
+                    </fieldset>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--PopUpLogin1-->
+    <div class="modal fade" id="Login1" tabindex="-1" role="dialog" aria-labelledby="Login1"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div style="margin-left: 10px; margin-bottom: 5px;">
+                    <section class="col-sm-12">
+
+                        <div class="form-group row">
+                            <label class="col-4" for="txtUsername1">Username:</label>
+                            <div class="col-8">
+                                <input type="text" id="txtUsername1" class="form-control" />
+                            </div>
+                        </div>
+        
+                        <div class="form-group row">
+                            <label class="col-4" for="txtPassword1">Password:</label>
+                            <div class="col-8">
+                                <input type="password" id="txtPassword1" class="form-control" />
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-8 offset-4">
+                                <button type="button" class="btn btn-primary">Login</button>
+                            </div>
+                        </div>
+        
+                    </section>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Script-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
