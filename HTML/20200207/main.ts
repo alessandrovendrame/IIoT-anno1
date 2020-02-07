@@ -27,7 +27,7 @@ http.createServer((req,res)=>{
         res.end(JSON.stringify(list));
     }else{
         res.writeHead(200,"text/plain");
-        res.end("Ciao ITS");
+        res.end("Ciao ITS programma di Vendrame");
     }
     console.log("url: " + req.url);
 }).listen(5000);
