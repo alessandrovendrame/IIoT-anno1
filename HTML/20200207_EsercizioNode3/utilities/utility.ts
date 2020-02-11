@@ -3,7 +3,7 @@ import * as path from 'path';
 
 const testFolder = '../../../../Scuola';
 
-var contenitore;
+var contenitore : string;
 
 export function readConstDir(){
     fs.readdir(testFolder, (err, files) => {
@@ -12,15 +12,16 @@ export function readConstDir(){
         }
 
         files.forEach(file => {
-           console.log(file); 
+           contenitore += file + " ";
         });
 
-        contenitore = files;
+        return contenitore;
     });
 }
 
 export function getContenitore()
 {
+    readConstDir();
+    console.log(contenitore);
     return contenitore;
 }
-
