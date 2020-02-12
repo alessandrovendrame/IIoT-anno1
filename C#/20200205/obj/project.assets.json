@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\Esercizi\\C#\\20200205\\20200205.csproj",
+      "projectUniqueName": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno1\\C#\\20200205\\20200205.csproj",
       "projectName": "20200205",
-      "projectPath": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\Esercizi\\C#\\20200205\\20200205.csproj",
+      "projectPath": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno1\\C#\\20200205\\20200205.csproj",
       "packagesPath": "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\Esercizi\\C#\\20200205\\obj\\",
+      "outputPath": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno1\\C#\\20200205\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alessandro Vendrame\\AppData\\Roaming\\NuGet\\NuGet.Config"

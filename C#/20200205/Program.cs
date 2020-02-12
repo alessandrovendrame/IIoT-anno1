@@ -43,7 +43,7 @@ namespace _20200205
             Console.Write("Inserisci la subnet-mask: ");
             int subnet = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("L'indirizzo di rete per l'indirizzo " + ip + "\\" + subnet + " è " + calcolaIndirizzoRete(ip,subnet));
+            calcolaIndirizzoRete(ip,subnet);
         }
 
         static int contaSpazi(string s)
@@ -90,20 +90,22 @@ namespace _20200205
             return s;
         }
 
-        static string calcolaIndirizzoRete(string s , int n)
+        static void calcolaIndirizzoRete(string s , int n)
         {
             string sub = calcolaSubnet(n);
 
+            int networkAdd = 0;
             string [] subnet = sub.Split(".");
             string[] ip = s.Split(".");
             string ipAddress="";
+            string broadcast="";
             int stop=0;
 
             int magicNumber=0;
             
             for (int i = 0; i < 4; i++)
             {
-                if(!(subnet[i].Equals("255")));
+                if(!(subnet[i].Equals("255")))
                 {
                     magicNumber=256-int.Parse(subnet[i]);
                     stop=i;
@@ -112,18 +114,35 @@ namespace _20200205
                 
             }
 
-            for (int i = 0; i <= 255;)
+            for (int i = 0; i <= 255;i+=magicNumber)
             {
-                if(i>int.Parse(ip[stop+magicNumber]))
+                if(i+magicNumber>int.Parse(ip[stop]))
                 {
-                      ipAddress+=i.ToString();
+                      networkAdd=i;
                       break; 
                 }
-
-                i+=magicNumber;
             }
 
-            return "Ciao";
+            for (int i = 0; i<stop; i++)
+            {
+                ipAddress+=ip[i]+".";
+                broadcast+=ip[i]+".";
+            }
+
+            if(stop==3)
+            {
+                ipAddress+=networkAdd;
+                Console.WriteLine("L' indirizzo di rete è " + ipAddress);
+                int aux = networkAdd+magicNumber-1;
+                broadcast+=aux;
+                Console.WriteLine("L' indirizzo di rete è " + broadcast);
+            }else
+            {
+                ipAddress+=networkAdd+".0";
+                Console.WriteLine("L' indirizzo di rete è " + ipAddress);
+                broadcast+=networkAdd+magicNumber-1 + ".255";
+                Console.WriteLine("L' indirizzo di rete è " + broadcast);
+            }
         }
     }
 }
