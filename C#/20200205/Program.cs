@@ -125,6 +125,7 @@ namespace _20200205
 
             for (int i = 0; i<stop; i++)
             {
+                Console.WriteLine("SONO DENTRO");
                 ipAddress+=ip[i]+".";
                 broadcast+=ip[i]+".";
             }
@@ -135,14 +136,24 @@ namespace _20200205
                 Console.WriteLine("L' indirizzo di rete è " + ipAddress);
                 int aux = networkAdd+magicNumber-1;
                 broadcast+=aux;
-                Console.WriteLine("L' indirizzo di rete è " + broadcast);
+                Console.WriteLine("L' indirizzo di broadcast è " + broadcast);
             }else
             {
-                ipAddress+=networkAdd+".0";
+                    if(stop==2)
+                    {
+                        ipAddress+=networkAdd+".0";                    
+                        broadcast+=networkAdd+magicNumber-1 + ".255"; 
+                    }else if(stop==1)
+                    {
+                        ipAddress+=networkAdd+".0.0";
+                        broadcast+=networkAdd+magicNumber-1 + ".255.255";
+                    }
+                                       
+                }
+
                 Console.WriteLine("L' indirizzo di rete è " + ipAddress);
-                broadcast+=networkAdd+magicNumber-1 + ".255";
-                Console.WriteLine("L' indirizzo di rete è " + broadcast);
+                Console.WriteLine("L' indirizzo di broadcast è " + broadcast);
+                
             }
         }
     }
-}
