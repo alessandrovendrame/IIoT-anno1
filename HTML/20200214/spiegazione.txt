@@ -1,0 +1,5 @@
+Fare una toDo List, che all'interno deve avere:
+    - Descrizione
+    - assignedTo
+    - status
+    - creationDate(quando viene inserito)

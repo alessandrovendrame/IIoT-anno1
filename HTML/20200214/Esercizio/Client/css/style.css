@@ -1,0 +1,11 @@
+.casellaX{
+    background-image: url("/20201001/icons/X.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.casellaO{
+    background-image: url("/20201001/icons/O.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
