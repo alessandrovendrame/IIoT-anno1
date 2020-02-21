@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>Student List</h1>
+        <div class="row">
+            <div class="col-3">
+                <form>
+                    <div class="form-group">
+                      <label for="lblDescrizione">Nome</label>
+                      <input type="text" class="form-control" id="txtName" placeholder="Inserisci nome">
+                    </div>
+                    <div class="form-group">
+                      <label for="lblFattoDa">Cognome</label>
+                      <input type="text" class="form-control" id="txtLastName" placeholder="Inserisci un cognome">
+                    </div>
+                    <div class="form-group">
+                        <label for="lblformStatus">Classe</label>
+                        <select class="form-control" id="selClass">
+                          <option>First</option>
+                          <option>Second</option>
+                          <option>Third</option>
+                        </select>
+                    </div>
+                    <input type="button" class="btn btn-primary" id="btnSend" value="Send" onclick="sendData()">
+                  </form>
+            </div>
+            <div class="col-3 offset-2">
+                <!-- DA FARE GET PER METTERE DENTRO AL SELECT -->
+                <form>
+                    <div class="form-group">
+                        <label for="lblformStatus">Classe:</label>
+                        <select class="form-control" id="selStudent"></select>
+                    </div>
+                    <input type="button" class="btn btn-primary" id="btnShow" onclick="getPersona()" value="Visualizza">
+                    <input type="button" class="btn btn-primary" id="btnShowAll" onclick="getData()" value="Visualizza tutto">
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="row" id="pnlOutput"></div>
+    </div>
+    <script src = "js/jquery-3.4.1.min.js"></script>
+    <script src = "js/bootstrap.min.js"></script>
+    <script src = "js/main.js"></script>
+</body>
+</html>

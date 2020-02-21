@@ -70,6 +70,14 @@ function getData() {
             card_status.classList.add("mb-2");
             card_status.classList.add("text-muted");
 
+            if (data[i].status == "Non completato")
+            {
+                card.classList.add("bg-danger");
+            }else
+            {
+                card.classList.add("bg-success");
+            }
+
             card_text.innerHTML = data[i].description;
             card_title.innerHTML = data[i].assignedTo;
             card_subtitle.innerHTML = data[i].creationDate;
