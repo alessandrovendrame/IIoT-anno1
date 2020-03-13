@@ -1,0 +1,9 @@
+CREATE TABLE todo(
+id int primary key not null,
+userid int,
+author varchar(10) not null,
+description varchar(20) not null,
+status varchar(10) not null,
+date varcar(20) not null,
+foreign key(userid) references utenti(id)
+);
