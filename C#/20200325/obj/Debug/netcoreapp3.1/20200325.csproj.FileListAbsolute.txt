@@ -1,0 +1,11 @@
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200325\bin\Debug\netcoreapp3.1\20200325.exe
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200325\bin\Debug\netcoreapp3.1\20200325.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200325\bin\Debug\netcoreapp3.1\20200325.runtimeconfig.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200325\bin\Debug\netcoreapp3.1\20200325.runtimeconfig.dev.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200325\bin\Debug\netcoreapp3.1\20200325.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200325\bin\Debug\netcoreapp3.1\20200325.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200325\obj\Debug\netcoreapp3.1\20200325.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200325\obj\Debug\netcoreapp3.1\20200325.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200325\obj\Debug\netcoreapp3.1\20200325.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200325\obj\Debug\netcoreapp3.1\20200325.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200325\obj\Debug\netcoreapp3.1\20200325.pdb
