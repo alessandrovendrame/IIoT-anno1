@@ -20,6 +20,8 @@ var connection = mysql.createPool({
 
 let list: toDo[] = [];
 
+var x : number =12 ;
+
 app.post('/token', (request, reply) => {
     // some code
     let utente = request.body as user;

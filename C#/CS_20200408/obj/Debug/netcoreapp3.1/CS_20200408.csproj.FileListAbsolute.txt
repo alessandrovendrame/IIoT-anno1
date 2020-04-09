@@ -1,0 +1,17 @@
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\bin\Debug\netcoreapp3.1\CS_20200408.exe
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\bin\Debug\netcoreapp3.1\CS_20200408.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\bin\Debug\netcoreapp3.1\CS_20200408.runtimeconfig.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\bin\Debug\netcoreapp3.1\CS_20200408.runtimeconfig.dev.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\bin\Debug\netcoreapp3.1\CS_20200408.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\bin\Debug\netcoreapp3.1\CS_20200408.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\obj\Debug\netcoreapp3.1\CS_20200408.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\obj\Debug\netcoreapp3.1\CS_20200408.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\obj\Debug\netcoreapp3.1\CS_20200408.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\obj\Debug\netcoreapp3.1\CS_20200408.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\obj\Debug\netcoreapp3.1\CS_20200408.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200408\obj\Debug\netcoreapp3.1\CS_20200408.csproj.CopyComplete

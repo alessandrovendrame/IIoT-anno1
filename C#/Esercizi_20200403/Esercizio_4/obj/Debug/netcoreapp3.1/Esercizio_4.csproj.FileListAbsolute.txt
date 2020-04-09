@@ -1,0 +1,11 @@
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\Esercizi_20200403\Esercizio_4\obj\Debug\netcoreapp3.1\Esercizio_4.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\Esercizi_20200403\Esercizio_4\obj\Debug\netcoreapp3.1\Esercizio_4.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\Esercizi_20200403\Esercizio_4\obj\Debug\netcoreapp3.1\Esercizio_4.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\Esercizi_20200403\Esercizio_4\bin\Debug\netcoreapp3.1\Esercizio_4.exe
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\Esercizi_20200403\Esercizio_4\bin\Debug\netcoreapp3.1\Esercizio_4.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\Esercizi_20200403\Esercizio_4\bin\Debug\netcoreapp3.1\Esercizio_4.runtimeconfig.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\Esercizi_20200403\Esercizio_4\bin\Debug\netcoreapp3.1\Esercizio_4.runtimeconfig.dev.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\Esercizi_20200403\Esercizio_4\bin\Debug\netcoreapp3.1\Esercizio_4.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\Esercizi_20200403\Esercizio_4\bin\Debug\netcoreapp3.1\Esercizio_4.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\Esercizi_20200403\Esercizio_4\obj\Debug\netcoreapp3.1\Esercizio_4.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\Esercizi_20200403\Esercizio_4\obj\Debug\netcoreapp3.1\Esercizio_4.pdb
