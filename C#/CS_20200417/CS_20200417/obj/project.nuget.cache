@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6TjOu7pRemR80pAIloq13Zs+T3ptqp3Fmg68LbsoSnao3lxo/tH1J+duhlBjH1FjJO5wEz4FeeeG2aOCII6yXw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alessandro Vendrame\\Desktop\\Scuola\\IIoT-anno1\\C#\\CS_20200417\\CS_20200417\\CS_20200417.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200417_Scrubble\CS_20200417_Scrubble\bin\Debug\netcoreapp3.1\CS_20200417_Scrubble.exe
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200417_Scrubble\CS_20200417_Scrubble\bin\Debug\netcoreapp3.1\CS_20200417_Scrubble.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200417_Scrubble\CS_20200417_Scrubble\bin\Debug\netcoreapp3.1\CS_20200417_Scrubble.runtimeconfig.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200417_Scrubble\CS_20200417_Scrubble\bin\Debug\netcoreapp3.1\CS_20200417_Scrubble.runtimeconfig.dev.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200417_Scrubble\CS_20200417_Scrubble\bin\Debug\netcoreapp3.1\CS_20200417_Scrubble.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200417_Scrubble\CS_20200417_Scrubble\bin\Debug\netcoreapp3.1\CS_20200417_Scrubble.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200417_Scrubble\CS_20200417_Scrubble\obj\Debug\netcoreapp3.1\CS_20200417_Scrubble.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200417_Scrubble\CS_20200417_Scrubble\obj\Debug\netcoreapp3.1\CS_20200417_Scrubble.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200417_Scrubble\CS_20200417_Scrubble\obj\Debug\netcoreapp3.1\CS_20200417_Scrubble.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200417_Scrubble\CS_20200417_Scrubble\obj\Debug\netcoreapp3.1\CS_20200417_Scrubble.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200417_Scrubble\CS_20200417_Scrubble\obj\Debug\netcoreapp3.1\CS_20200417_Scrubble.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200417_Scrubble\CS_20200417_Scrubble\obj\Debug\netcoreapp3.1\CS_20200417_Scrubble.genruntimeconfig.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\CS_20200417_Scrubble\CS_20200417_Scrubble\obj\Debug\netcoreapp3.1\CS_20200417_Scrubble.csprojAssemblyReference.cache
