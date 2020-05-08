@@ -72,7 +72,10 @@ app.post('/students', (request, reply) => {
         if (error) {
             reply.status(500).send({ error: error.message });
             return;
-        }
+        }else
+		{
+			reply.status(204).send({ status: "created" });
+		}
     });
 });
 
@@ -88,6 +91,9 @@ app.post("/students/delete", (request, reply) => {
         if (error) {
             reply.status(500).send({ error: error.message });
             return;
-        }
+        }else
+		{
+			reply.status(204).send({ status: "created" });
+		}
     });
 });

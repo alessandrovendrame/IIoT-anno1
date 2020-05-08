@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "CS_20200427": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

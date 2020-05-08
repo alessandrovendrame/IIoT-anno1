@@ -1,5 +1,5 @@
 //import * as io from "socket.io-client";
-var socket = io.connect('http://localhost:3000');
+var socket = io.connect('http://limitless-castle-77413.herokuapp.com:3000');
 var btnSend = document.getElementById("btnSend");
 var txtMex = document.getElementById("txtMessaggio");
 socket.on("message", function (message) {

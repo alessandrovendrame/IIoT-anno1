@@ -23,7 +23,6 @@ namespace CS_20200417_Scrubble
             List<String> paroleTrovate = new List<String>();
             String[] lettere;
             int jolly = 0;
-            bool[] prova = new bool[7];
             lettere = new String[7];
 
             for (int i = 0; i < 7; i++)
