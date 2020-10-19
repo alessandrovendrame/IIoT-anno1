@@ -9,3 +9,16 @@ C:\Users\Alessandro Vendrame\Desktop\Scuola\Esercizi\C#\20201301\obj\Debug\netco
 C:\Users\Alessandro Vendrame\Desktop\Scuola\Esercizi\C#\20201301\obj\Debug\netcoreapp3.1\20201301.AssemblyInfo.cs
 C:\Users\Alessandro Vendrame\Desktop\Scuola\Esercizi\C#\20201301\obj\Debug\netcoreapp3.1\20201301.dll
 C:\Users\Alessandro Vendrame\Desktop\Scuola\Esercizi\C#\20201301\obj\Debug\netcoreapp3.1\20201301.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200113\bin\Debug\netcoreapp3.1\20201301.exe
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200113\bin\Debug\netcoreapp3.1\20201301.deps.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200113\bin\Debug\netcoreapp3.1\20201301.runtimeconfig.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200113\bin\Debug\netcoreapp3.1\20201301.runtimeconfig.dev.json
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200113\bin\Debug\netcoreapp3.1\20201301.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200113\bin\Debug\netcoreapp3.1\20201301.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200113\obj\Debug\netcoreapp3.1\20201301.csprojAssemblyReference.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200113\obj\Debug\netcoreapp3.1\20201301.csproj.CoreCompileInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200113\obj\Debug\netcoreapp3.1\20201301.AssemblyInfoInputs.cache
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200113\obj\Debug\netcoreapp3.1\20201301.AssemblyInfo.cs
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200113\obj\Debug\netcoreapp3.1\20201301.dll
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200113\obj\Debug\netcoreapp3.1\20201301.pdb
+C:\Users\Alessandro Vendrame\Desktop\Scuola\IIoT-anno1\C#\20200113\obj\Debug\netcoreapp3.1\20201301.genruntimeconfig.cache

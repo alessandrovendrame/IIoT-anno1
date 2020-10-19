@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vendrame.Esame.Finale.Data\Vendrame.Esame.Finale.Data.csproj" />
+    <ProjectReference Include="..\Vendrame.Esame.Finale.Models\Vendrame.Esame.Finale.Models.csproj" />
+  </ItemGroup>
+
+</Project>

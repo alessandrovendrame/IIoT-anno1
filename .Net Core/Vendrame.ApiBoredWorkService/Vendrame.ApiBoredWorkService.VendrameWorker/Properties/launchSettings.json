@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Vendrame.ApiBoredWorkService.VendrameWorker": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

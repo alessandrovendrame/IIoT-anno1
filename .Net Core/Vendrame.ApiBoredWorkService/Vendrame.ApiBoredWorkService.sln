@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendrame.ApiBoredWorkService.Data", "Vendrame.ApiBoredWorkService.Data\Vendrame.ApiBoredWorkService.Data.csproj", "{EDC78BDA-7E8E-48F0-831A-8D1FD5C85209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendrame.ApiBoredWorkService.Service", "Vendrame.ApiBoredWorkService.Service\Vendrame.ApiBoredWorkService.Service.csproj", "{90475414-3CAC-43E2-9701-811858D40BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendrame.ApiBoredWorkService.Model", "Vendrame.ApiBoredWorkService.Model\Vendrame.ApiBoredWorkService.Model.csproj", "{8A593081-37E3-4817-96EF-798391772A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendrame.ApiBoredWorkService.VendrameWorker", "Vendrame.ApiBoredWorkService.VendrameWorker\Vendrame.ApiBoredWorkService.VendrameWorker.csproj", "{E650AE11-8698-4280-AB21-78CB5D1808BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendrame.ApiBoredWorkService.API", "Vendrame.ApiBoredWorkService.API\Vendrame.ApiBoredWorkService.API.csproj", "{5202D4C4-CE4B-474D-B6C6-E3156FB7673F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDC78BDA-7E8E-48F0-831A-8D1FD5C85209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC78BDA-7E8E-48F0-831A-8D1FD5C85209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC78BDA-7E8E-48F0-831A-8D1FD5C85209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC78BDA-7E8E-48F0-831A-8D1FD5C85209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90475414-3CAC-43E2-9701-811858D40BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90475414-3CAC-43E2-9701-811858D40BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90475414-3CAC-43E2-9701-811858D40BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90475414-3CAC-43E2-9701-811858D40BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A593081-37E3-4817-96EF-798391772A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A593081-37E3-4817-96EF-798391772A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A593081-37E3-4817-96EF-798391772A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A593081-37E3-4817-96EF-798391772A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E650AE11-8698-4280-AB21-78CB5D1808BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E650AE11-8698-4280-AB21-78CB5D1808BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E650AE11-8698-4280-AB21-78CB5D1808BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E650AE11-8698-4280-AB21-78CB5D1808BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5202D4C4-CE4B-474D-B6C6-E3156FB7673F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5202D4C4-CE4B-474D-B6C6-E3156FB7673F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5202D4C4-CE4B-474D-B6C6-E3156FB7673F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5202D4C4-CE4B-474D-B6C6-E3156FB7673F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BABD7B9A-4CF9-4783-92EE-39B1AC9AA1CA}
+	EndGlobalSection
+EndGlobal
